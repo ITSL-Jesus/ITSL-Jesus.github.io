@@ -1,291 +1,135 @@
 <!DOCTYPE html>
 <html lang="es">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-        <!-- FAVICON -->
-        <link rel="shortcut icon" href="ASSETS/IMG/portfolio.png"
-            type="image/x-icon">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>La Plaza </title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
 
-        <!-- REMIX ICONS -->
-        <link
-            href="https://cdn.jsdelivr.net/npm/remixicon@4.1.0/fonts/remixicon.css"
-            rel="stylesheet" />
-        <!-- CSS -->
-        <link rel="stylesheet" href="ASSETS/CSS/styles.css">
+<body class="container">
+    <header>
+        <div class="header-content">
+            <h1> 👩🏻‍❤️‍💋‍👨🏻 LOS BELIKISS 🔫</h1>
+            <p class="slogan">¡Siem - pre pendienteeeeesss!</p>
+            <br>
+            <a href="#servicios" class="btn">Nuestros Servicios</a>
+            <a href="#contactos" class="btn">Contactanos</a>
+        </div>
+    </header>
 
-        <title>Ing. Jesus Luna - Portafolio</title>
-    </head>
-    <body>
-        <!--=============== HEADER PROFILE ===============-->
-        <header class="profile container">
-            <i class="ri-moon-line change-theme" id="theme-button"></i>
-            <div class="profile__container grid">
-                <div class="profile__data">
-                    <div class="profile__border">
-                        <div class="profile__perfil">
-                            <img src="ASSETS/IMG/foto.png" alt="Perfil">
-                        </div>
+    <section id="bienvenida" class="section">
+        <div class="container">
+            <h3 style="font-weight: bold; text-align: center ;font-size: 40px ;color: #f3ced9;"> Bienvenidos </h3>
+            <p> Nuestra plataforma web está repleta de servicios extraordinarios esperándote.Somos <span
+                    style="font-weight: bold; color: #f3ced9;">Anyhi</span> y 
+                    <span style="font-weight: bold; color: #f3ced9;">Jesús</span>, 
+                una pareja emprendedora dedicada a convertir cada momento en algo especial. Desde la compra 
+                de productos hasta clases interactivas, ofrecemos <span
+                    style="font-weight: bold; color: #f3ced9;">5</span> tipos 
+                de servicios que reflejan nuestra dedicación y creatividad.</p>
+        </div>
+    </section>
+
+    <section id="servicios" class="section">
+        <div class="container">
+            <h3 style="font-weight: bold; text-align: center ;font-size: 30px ;color: #f3ced9;" >Nuestros Servicios</h3>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-image">
+                        <img src="https://latam.kaspersky.com/content/es-mx/images/repository/isc/2021/safe_shopping_1.jpg"
+                            alt="Imagen de Servicio 1">
                     </div>
-
-                    <h2 class="profile__name">Jesus Luna</h2>
-                    <h3 class="profile__profession">Ing. Sistemas Computacionales</h3>
-
-                    <div class="profile__info grid">
-                        <div class="profile__info-group">
-                            <h3 class="profile__info-number">
-                                Especialista en almacenamiento de datos y desarrollo multiplataforma con un año de experiencia, destacando por mi enfoque innovador y creativo.
-                            </h3>
-                        </div>
+                    <div class="service-content">
+                        <h3 style="text-align: center;">Compras</h3>
+                        <p>Desde ropa de moda en SHEIN hasta productos disponibles en plataformas como Amazon, Mercado
+                            Libre o TEMU, ¡encuentra todo lo que necesitas con nosotros!</p>
+                        <a href="#servicio1" class="btn">Ver más</a>
                     </div>
-
-                    <div class="profile__buttons">
-                        <a href="ASSETS/PDF/CV - Jesus Luna.pdf" target="_blank" class="button">CV <i class="ri-download-line"></i> </a>
-                        
-                        <div class="profile__buttons-small"> 
-                            <a href="https://api.whatsapp.com/send/?phone=5218714056401&text&type=phone_number&app_absent=0" target="_blank" class="button button__small button__gray">
-                                <i class="ri-whatsapp-line"></i>
-                            </a>
-                            <a href="mailto:marevalojesus@gmail.com" target="_blank" class="button button__small button__gray">
-                                <i class="ri-mail-send-line"></i>
-                            </a>
-                            <a href="https://www.linkedin.com/in/jesus-lunaare/" target="_blank" class="button button__small button__gray">
-                                <i class="ri-linkedin-line"></i>
-                            </a>
-                        </div>
+                </div>
+                <div class="service-card">
+                    <div class="service-image">
+                        <img src="https://www.pradochaves.com.br/wp-content/uploads/2021/03/tipos-de-documentos.jpg"
+                            alt="Imagen de Servicio 2">
+                    </div>
+                    <div class="service-content">
+                        <h3 style="text-align: center;">Documentos</h3>
+                        <p>Simplificamos tus trámites generando citas para el SAT, el INE, así como ayudándote con la
+                            obtención de tu CURP y RFC. ¡Haz tu vida más fácil con nuestros servicios documentales!</p>
+                        <a href="#servicio2" class="btn">Ver más</a>
+                    </div>
+                </div>
+                <div class="service-card">
+                    <div class="service-image">
+                        <img src="https://www.magisnet.com/wp-content/uploads/2022/01/clases-particulares.jpeg"
+                            alt="Imagen de Servicio 2">
+                    </div>
+                    <div class="service-content">
+                        <h3 style="text-align: center;">Clases</h3>
+                        <p>Ya sea en persona o en línea, ofrecemos una amplia variedad de clases sobre diversos temas,
+                            junto con la ayuda para generar tareas y mejorar tu aprendizaje.</p>
+                        <a href="#servicio2" class="btn">Ver más</a>
+                    </div>
+                </div>
+                <div class="service-card">
+                    <div class="service-image">
+                        <img src="https://isil.pe/blog/wp-content/uploads/2023/10/mejores-herramientas-desarrollo-software.png"
+                            alt="Imagen de Servicio 2">
+                    </div>
+                    <div class="service-content">
+                        <h3 style="text-align: center;">Desarrollo</h3>
+                        <p>¿Necesitas presencia en línea? Nosotros creamos desde páginas web hasta aplicaciones para
+                            Android y programas especializados para tu tienda.</p>
+                        <a href="#servicio2" class="btn">Ver más</a>
+                    </div>
+                </div>
+                <div class="service-card">
+                    <div class="service-image">
+                        <img src="https://fundacioncarlosslim.org/wp-content/uploads/2020/12/mantenimiento-equipo-computo-1.jpg"
+                            alt="Imagen de Servicio 2">
+                    </div>
+                    <div class="service-content">
+                        <h3 style="text-align: center;">Mantenimiento</h3>
+                        <p>Desde la creación de cuentas en servicios como Google y iCloud hasta el desbloqueo de
+                            dispositivos Android, así como mantenimiento y asesorías para computadoras, ¡te respaldamos
+                            en cada paso!</p>
+                        <a href="#servicio2" class="btn">Ver más</a>
                     </div>
                 </div>
             </div>
-        </header>
+        </div>
+    </section>
 
-        <!--=============== MAIN ===============-->
-        <main class="main">
-            <section class="filters container">
-                <!--=============== FILTERS TABS ===============-->
-                <ul class="filters__content"> 
-                    <button class="filters__button filters-tab__active" data-target="#Proyectos">
-                        Proyectos
-                    </button>
-                    <button class="filters__button" data-target="#Habilidades">
-                        Habilidades
-                    </button>
-                </ul>
-                <div class="filters__sections">
-                    <!--=============== PROJECTS ===============-->
-                    
-                    <div class="projects__content grid  filters__active" data-content id="Proyectos">
-                        
-                        <article class="projects__card">
-                            <img src="ASSETS/IMG/MAGJ.png" alt="" class="projects__img">
-                            
-                            <div class="projects__modal">
-                                <div>
-                                    <span class="projects__subtitle">Desktop</span>
-                                        <h3 class="projects__title">Gestor de ventas, inventario y personal para MAGJ.</h3>
-                                            <a href="https://github.com/ITSL-Jesus/MAGJ-Proyect" class="projects__button button button_small" target="_blank" >
-                                                <i class="ri-links-fill"></i>
-                                            </a>
-                                </div>
-                            </div>
-                        </article>
 
-                        <article class="projects__card">
-                            <img src="ASSETS/IMG/CCN.png" alt="" class="projects__img">
-                            
-                            <div class="projects__modal">
-                                <div>
-                                    <span class="projects__subtitle">Script</span>
-                                        <h3 class="projects__title">Automatización de los procesos relacionados a las cartas porte en CCN Transportación.</h3>
-                                            <a href="https://github.com/ITSL-Jesus/Automatizacion-CCN" class="projects__button button button_small" target="_blank">
-                                                <i class="ri-links-fill"></i>
-                                            </a>
-                                </div>
-                            </div>
-                        </article>
 
-                        <article class="projects__card">
-                            <img src="ASSETS/IMG/Camabalche.png" alt="" class="projects__img">
-                            
-                            <div class="projects__modal">
-                                <div>
-                                    <span class="projects__subtitle">Web - Movil</span>
-                                        <h3 class="projects__title">Ecommerce de intercambio para Cambalache ITSL.</h3>
-                                            <a href="https://github.com/ITSL-Jesus/Cambalache" class="projects__button button button_small" target="_blank">
-                                                <i class="ri-links-fill"></i>
-                                            </a>
-                                </div>
-                            </div>
-                        </article>
+    <!-- Repite este patrón para las secciones de servicios, acerca de nosotros, testimonios, contacto, y blog -->
 
-                        <article class="projects__card">
-                            <img src="ASSETS/IMG/TECNM.png" alt="" class="projects__img">
-                            
-                            <div class="projects__modal">
-                                <div>
-                                    <span class="projects__subtitle">Web</span>
-                                        <h3 class="projects__title">Gestor de almacenamiento y control para investigadores del TECNM en el ITSL.</h3>
-                                            <a href="https://github.com/ITSL-Jesus/TecLerdo" class="projects__button button button_small" target="_blank">
-                                                <i class="ri-links-fill"></i>
-                                            </a>
-                                </div>
-                            </div>
-                        </article>
-
-                        <article class="projects__card">
-                            <img src="ASSETS/IMG/maquetado.png" alt="" class="projects__img">
-                            
-                            <div class="projects__modal">
-                                <div>
-                                    <span class="projects__subtitle">Web Desing</span>
-                                        <h3 class="projects__title">Maquetado y diseño web para negocios.</h3>
-                                            <a href="https://github.com/ITSL-Jesus/Hotel-Desing" class="projects__button button button_small" target="_blank">
-                                                <i class="ri-links-fill"></i>
-                                            </a>
-                                </div>
-                            </div>
-                        </article>
-                    </div>
-
-                    <!--=============== SKILLS ===============-->
-                    
-                    <div class="skills__content grid" data-content id="Habilidades" >
-                        <div class="skills__area">
-                            <h3 class="skills__title">
-                                Frontend Developer
-                            </h3>
-
-                            <div class="skills__box">
-                                <div class="skills__group">
-                                    <div class="skills__data">
-                                        <i class="ri-checkbox-circle-line"></i>
-
-                                        <div>
-                                            <h3 class="skills__name">HTML</h3>
-                                            <span class="skills__level">Intermedie</span>
-                                        </div>
-                                    </div>
-                                    <div class="skills__data">
-                                        <i class="ri-checkbox-circle-line"></i>
-
-                                        <div>
-                                            <h3 class="skills__name">CSS</h3>
-                                            <span class="skills__level">Basic</span>
-                                        </div>
-                                    </div>
-                                    <div class="skills__data">
-                                        <i class="ri-checkbox-circle-line"></i>
-
-                                        <div>
-                                            <h3 class="skills__name">JS</h3>
-                                            <span class="skills__level">Basic</span>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="skills__group">
-                                    <div class="skills__data">
-                                        <i class="ri-checkbox-circle-line"></i>
-
-                                        <div>
-                                            <h3 class="skills__name">Laravel</h3>
-                                            <span class="skills__level">Intermedie</span>
-                                        </div>
-                                    </div>
-                                    <div class="skills__data">
-                                        <i class="ri-checkbox-circle-line"></i>
-
-                                        <div>
-                                            <h3 class="skills__name">Tailwind</h3>
-                                            <span class="skills__level">Basic</span>
-                                        </div>
-                                    </div>
-                                    <div class="skills__data">
-                                        <i class="ri-checkbox-circle-line"></i>
-
-                                        <div>
-                                            <h3 class="skills__name">Git</h3>
-                                            <span class="skills__level">Intermedie</span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="skills__area">
-                            <h3 class="skills__title">
-                                Backend Developer
-                            </h3>
-
-                            <div class="skills__box">
-                                <div class="skills__group">
-                                    <div class="skills__data">
-                                        <i class="ri-checkbox-circle-line"></i>
-
-                                        <div>
-                                            <h3 class="skills__name">PHP</h3>
-                                            <span class="skills__level">Basic</span>
-                                        </div>
-                                    </div>
-                                    <div class="skills__data">
-                                        <i class="ri-checkbox-circle-line"></i>
-
-                                        <div>
-                                            <h3 class="skills__name">SQL</h3>
-                                            <span class="skills__level">Intermedie</span>
-                                        </div>
-                                    </div>
-                                    <div class="skills__data">
-                                        <i class="ri-checkbox-circle-line"></i>
-
-                                        <div>
-                                            <h3 class="skills__name">Pyhton</h3>
-                                            <span class="skills__level">intermedie</span>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="skills__group">
-                                    <div class="skills__data">
-                                        <i class="ri-checkbox-circle-line"></i>
-
-                                        <div>
-                                            <h3 class="skills__name">MongoDB</h3>
-                                            <span class="skills__level">Basic</span>
-                                        </div>
-                                    </div>
-                                    <div class="skills__data">
-                                        <i class="ri-checkbox-circle-line"></i>
-
-                                        <div>
-                                            <h3 class="skills__name">C#</h3>
-                                            <span class="skills__level">Intermedie</span>
-                                        </div>
-                                    </div>
-                                    <div class="skills__data">
-                                        <i class="ri-checkbox-circle-line"></i>
-
-                                        <div>
-                                            <h3 class="skills__name">Django</h3>
-                                            <span class="skills__level">Basic</span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+    <footer id="contactos">
+        <div class="container">
+            <div class="footer-content">
+                <div class="map">
+                    <!-- Ajusta el ancho y la altura del iframe para hacerlo más pequeño -->
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d267.22985982950223!2d-103.38594819007696!3d25.69110755705034!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses-419!2smx!4v1710834719967!5m2!1ses-419!2smx" width="300" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+                <div class="contact-info">
+                    <p>Contacto: <span style="font-weight: bold;">Beli_kiss@gmail.com</span></p> 
+                    <p>Teléfono: <span style="font-weight: bold;">951 482 9871</span></p>
+                    <div class="social-links">
+                        <a href="https://www.facebook.com/Y1susL4/" target="_blank" class="social-link"><i class="fab fa-facebook-f"></i></a>
+                        <a href="https://www.tiktok.com/@an_m53" target="_blank" class="social-link"><i class="fab fa-tiktok"></i></a>
+                        <a href="https://www.instagram.com/y1susl4/" target="_blank" class="social-link"><i class="fab fa-instagram "></i></a>
+                        <a href="https://api.whatsapp.com/send/?phone=528714056401&text=Hola+esto+es+una+prueba&type=phone_number&app_absent=0" target="_blank" class="social-link"><i class="fab fa-whatsapp "></i></a>
                     </div>
                 </div>
-            </section>
-        </main>
+            </div>
+        </div>
+    </footer>
+    
 
-        <!--=============== FOOTER ===============-->
-        <footer class="footer container">
-            <span class="footer__copy">
-                &copy; 2024 Jesus Luna. Todos los derechos reservados.
-            </span>
-        </footer>
 
-        <!--=============== SCROLLREVEAL ===============-->
-        <script src="ASSETS/JS/scrollreveal.min.js"></script>
-        
-        <!-- JS -->
-        <script src="ASSETS/JS/main.js"></script>
-    </body>
+</body>
+
 </html>

@@ -1,0 +1,127 @@
+/* Estilos generales */
+body {
+    font-family: roboto, Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 900px; /* Establecer el ancho máximo */
+    width: 90%; /* Ajustar el ancho a un porcentaje para ser responsive */
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.section {
+    padding: 20px 0;
+}
+
+/* Estilos para el encabezado */
+header {
+    background-image: url('https://i.pinimg.com/736x/1d/3a/db/1d3adbb1417c2a0300aa19b786cfaf8d.jpg');
+    background-size: auto; /* Hace que la imagen cubra todo el ancho y mantenga su altura original */
+    background-position: center; /* Mantener la imagen centrada */
+    color: #fff;
+    text-align: center;
+    padding: 100px 0;
+}
+
+
+.header-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.slogan {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.btn {
+    display: inline-block;
+    background-color: #f3ced9;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #f3ced9;
+}
+
+/* Estilos para los servicios */
+.services-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.service-card {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.service-card h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.service-image {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+
+.service-image img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.map {
+    flex: 1;
+}
+
+.contact-info {
+    flex: 1;
+    text-align: center;
+}
+
+/* Ajusta los estilos según sea necesario */
+
+
+/* Estilos para el pie de página */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.social-links {
+    margin-top: 20px;
+    text-align: center; /* Alinea los enlaces de redes sociales a la derecha */
+}
+
+.social-link {
+    color: #fff;
+    margin: 0 15px; /* Ajusta el margen entre los iconos */
+    font-size: 36px; /* Ajusta el tamaño de los iconos */
+    text-decoration: none;
+}
+
+.social-link:hover {
+    text-decoration: underline;
+}
