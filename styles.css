@@ -82,46 +82,41 @@ header {
     height: auto;
 }
 
-.footer-content {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.map {
-    flex: 1;
-}
-
-.contact-info {
-    flex: 1;
-    text-align: center;
-}
-
-/* Ajusta los estilos según sea necesario */
-
-
-/* Estilos para el pie de página */
 footer {
     background-color: #333;
     color: #fff;
-    padding: 20px 0;
+    padding: 20px 10px; /* Reducir el relleno horizontal en dispositivos móviles */
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    flex-direction: column; /* Cambiar la dirección del flexbox para dispositivos móviles */
+    align-items: center; /* Centrar elementos verticalmente en dispositivos móviles */
 }
+
+.footer-content {
+    display: flex;
+    flex-direction: column; /* Cambiar la dirección del flexbox para dispositivos móviles */
+    align-items: center; /* Centrar elementos verticalmente en dispositivos móviles */
+}
+
+.map {
+    max-width: 100%; /* Hacer que el mapa tenga un ancho máximo del 100% del contenedor */
+    height: auto; /* Permitir que la altura se ajuste automáticamente para mantener la proporción */
+}
+
+.contact-info {
+    width: 100%; /* Asegurarse de que la información de contacto ocupe todo el ancho en dispositivos móviles */
+    text-align: center; /* Centrar texto en dispositivos móviles */
+    margin-bottom: 10px; /* Agregar margen inferior entre los elementos en dispositivos móviles */
+}
+
 
 .social-links {
     margin-top: 20px;
-    text-align: center; /* Alinea los enlaces de redes sociales a la derecha */
+    text-align: center; /* Alinea los enlaces de redes sociales al centro en dispositivos móviles */
 }
 
 .social-link {
     color: #fff;
-    margin: 0 15px; /* Ajusta el margen entre los iconos */
-    font-size: 36px; /* Ajusta el tamaño de los iconos */
+    margin: 0 10px; /* Reducir el margen entre los iconos en dispositivos móviles */
+    font-size: 24px; /* Reducir el tamaño de los iconos en dispositivos móviles */
     text-decoration: none;
-}
-
-.social-link:hover {
-    text-decoration: underline;
 }
